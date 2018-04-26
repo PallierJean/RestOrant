@@ -13,6 +13,10 @@
 		8B5A34022080D83500D8C10D /* RestOrant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A34002080D83500D8C10D /* RestOrant.xcdatamodeld */; };
 		8B5A34042080D83500D8C10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B5A34032080D83500D8C10D /* Assets.xcassets */; };
 		8B5A34072080D83500D8C10D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5A34052080D83500D8C10D /* LaunchScreen.storyboard */; };
+		8B5A340F2080D8D400D8C10D /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A340E2080D8D400D8C10D /* MenuItem.swift */; };
+		8B5A34112080DFD800D8C10D /* CategaoryEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A34102080DFD800D8C10D /* CategaoryEnum.swift */; };
+		8B5A34152080E87500D8C10D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A34142080E87500D8C10D /* MenuViewController.swift */; };
+		8B5A34172080EB9300D8C10D /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A34162080EB9300D8C10D /* MenuTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		8B5A34032080D83500D8C10D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B5A34062080D83500D8C10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B5A34082080D83500D8C10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B5A340E2080D8D400D8C10D /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		8B5A34102080DFD800D8C10D /* CategaoryEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategaoryEnum.swift; sourceTree = "<group>"; };
+		8B5A34142080E87500D8C10D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8B5A34162080EB9300D8C10D /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				8B5A33F92080D83500D8C10D /* AppDelegate.swift */,
-				8B5A33FB2080D83500D8C10D /* ViewController.swift */,
+				8B5A34192080F17500D8C10D /* Model */,
+				8B5A34182080F15600D8C10D /* UI */,
 				8B5A33FD2080D83500D8C10D /* Main.storyboard */,
 				8B5A34032080D83500D8C10D /* Assets.xcassets */,
 				8B5A34052080D83500D8C10D /* LaunchScreen.storyboard */,
@@ -65,6 +74,25 @@
 				8B5A34002080D83500D8C10D /* RestOrant.xcdatamodeld */,
 			);
 			path = RestOrant;
+			sourceTree = "<group>";
+		};
+		8B5A34182080F15600D8C10D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8B5A33FB2080D83500D8C10D /* ViewController.swift */,
+				8B5A34142080E87500D8C10D /* MenuViewController.swift */,
+				8B5A34162080EB9300D8C10D /* MenuTableViewCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8B5A34192080F17500D8C10D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B5A340E2080D8D400D8C10D /* MenuItem.swift */,
+				8B5A34102080DFD800D8C10D /* CategaoryEnum.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5A34152080E87500D8C10D /* MenuViewController.swift in Sources */,
+				8B5A34172080EB9300D8C10D /* MenuTableViewCell.swift in Sources */,
 				8B5A33FC2080D83500D8C10D /* ViewController.swift in Sources */,
 				8B5A34022080D83500D8C10D /* RestOrant.xcdatamodeld in Sources */,
+				8B5A340F2080D8D400D8C10D /* MenuItem.swift in Sources */,
 				8B5A33FA2080D83500D8C10D /* AppDelegate.swift in Sources */,
+				8B5A34112080DFD800D8C10D /* CategaoryEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
